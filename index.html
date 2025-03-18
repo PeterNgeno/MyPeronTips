@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Select a Service</h2>
+        <select id="service">
+            <option value="CV Writing - Ksh 200">CV Writing (Ksh 200)</option>
+            <option value="KRA Registration - Ksh 150">KRA Registration (Ksh 150)</option>
+            <option value="Business Name Registration - Ksh 1500">Business Registration (Ksh 1,500)</option>
+        </select>
+
+        <h3>Fill Your Details</h3>
+        <input type="text" id="name" placeholder="Your Full Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="phone" placeholder="Your Phone Number" required>
+        <input type="text" id="linkedin" placeholder="LinkedIn (Optional)">
+
+        <button onclick="sendWhatsApp()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
